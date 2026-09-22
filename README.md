@@ -23,7 +23,7 @@ Bounds for which the level of available verification is currently at minimal lev
 | [3d](https://teorth.github.io/optimizationproblems/constants/3d.html) | Single-set sum-difference exponent | 2 | 2 |
 | [3e](https://teorth.github.io/optimizationproblems/constants/3e.html) | Unnormalized single-set sum-difference exponent | 1.27155 | 1.33333 |
 | [4a](https://teorth.github.io/optimizationproblems/constants/4a.html) | Cap set constant | 2.2203 | 2.756 |
-| [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) | Furstenberg–Sárközy square-difference constant | 0.758067 | 1 |
+| [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) | Furstenberg–Sárközy square-difference constant | 0.758068 | 1 |
 | [5a](https://teorth.github.io/optimizationproblems/constants/5a.html) | Sidon set size constant | 0 | 0.97633 |
 | [5b](https://teorth.github.io/optimizationproblems/constants/5b.html) | Sidon set density inside (4,5) sets | 0.5294 | 0.5714 |
 | [6](https://teorth.github.io/optimizationproblems/constants/6a.html) | Union-closed sets conjecture constant | 0.38271 | 0.5 |
@@ -161,6 +161,7 @@ Bounds for which the level of available verification is currently at minimal lev
 - [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C_{4b} \geq 0.752796$ by [D. Krachun](https://arxiv.org/abs/2608.01325), 2 Aug 2026 — the first bound past $3/4$.
 - [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C_{4b} \geq 0.753742$ by [JD Jones](https://github.com/JD-Jones-ASES/fs-lower-bound), 23 Aug 2026, with a Lean 4 formalization registered as Palomar entry [PALOMAR-2026-08-26-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-08-26-000004&version=1) (standard axioms only).
 - [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C_{4b} \geq 0.758067$ (exact $37903373/50000000$) by [E. Naslund](https://github.com/enaslund/sarkozy-lower-bound-0.758), 19 Sep 2026, with a Lean 4 formalization registered as Palomar entry [PALOMAR-2026-09-19-000006](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-19-000006&version=1) (standard axioms only).
+- [4b](https://teorth.github.io/optimizationproblems/constants/4b.html) **improved lower bound:** $C_{4b} \geq 0.75806770413$ (exact $75806770413/10^{11}$) by [JD Jones](https://github.com/JD-Jones-ASES/nk-lean), 21 Sep 2026: Naslund's construction under his criterion with one composite code's words, the widths and all nine moment powers reallocated; Lean 4 formalization registered as Palomar entry [PALOMAR-2026-09-21-000004](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-21-000004&version=1) (standard axioms only).
 
 ## Maintainers
 
